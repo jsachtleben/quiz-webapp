@@ -19,6 +19,8 @@ let incorrectCount = 0;
 let answeredThisCycle = 0;
 let cycleSize = 0;
 
+const MAX_FILE_SIZE = 5 * 1024 * 1024; // 5 MB
+
 function resetGameState() {
   currentQuestion = null;
   answered = false;
@@ -41,6 +43,7 @@ function validateQuestions(data) {
     throw new Error('Die Fragenliste ist leer.');
   }
 
+  const ids = new Set();
   data.forEach((item, index) => {
     if (typeof item !== 'object' || item === null) {
       throw new Error(`Eintrag ${index + 1} ist kein Objekt.`);
@@ -49,6 +52,10 @@ function validateQuestions(data) {
     if (typeof id !== 'number' || !Number.isInteger(id)) {
       throw new Error(`Frage ${index + 1}: "id" muss eine Ganzzahl sein.`);
     }
+    if (ids.has(id)) {
+      throw new Error(`Doppelte ID "${id}" gefunden.`);
+    }
+    ids.add(id);
     if (typeof question !== 'string' || question.trim() === '') {
       throw new Error(`Frage ${id}: "question" muss ein Text sein.`);
     }
@@ -62,19 +69,38 @@ function validateQuestions(data) {
 }
 
 function loadQuestionsFromFile(file) {
+  if (file.size > MAX_FILE_SIZE) {
+    errorBox.textContent = 'Die Datei ist zu groß (max. 5 MB).';
+    return;
+  }
+  if (file.type !== 'application/json' && !file.name.toLowerCase().endsWith('.json')) {
+    errorBox.textContent = 'Bitte nur JSON-Dateien hochladen.';
+    return;
+  }
+
   const reader = new FileReader();
   reader.onload = (event) => {
     try {
       const parsed = JSON.parse(event.target.result);
       validateQuestions(parsed);
-      questions = parsed.map((q) => ({ ...q, correctStreak: 0 }));
+      questions = parsed.map((q) => ({
+        id: q.id,
+        question: q.question,
+        answers: [...q.answers],
+        correctIndex: q.correctIndex,
+        correctStreak: 0
+      }));
       resetGameState();
       statusSection.hidden = false;
       gameSection.hidden = false;
       errorBox.textContent = '';
       startCycle();
     } catch (err) {
-      errorBox.textContent = err.message || 'Fehler beim Laden der Datei.';
+      console.error('Fehler beim Laden:', err);
+      const safeMessage = err.message && err.message.startsWith('Frage')
+        ? err.message
+        : 'Fehler beim Laden der Datei. Bitte überprüfe das Format.';
+      errorBox.textContent = safeMessage;
       statusSection.hidden = true;
       gameSection.hidden = true;
       questions = [];
@@ -124,7 +150,6 @@ function renderQuestion(question) {
     btn.className = 'answer-btn';
     btn.textContent = answer;
     btn.dataset.index = idx;
-    btn.addEventListener('click', handleAnswerClick);
     answersContainer.appendChild(btn);
   });
   feedbackBox.textContent = '';
@@ -134,9 +159,10 @@ function renderQuestion(question) {
 }
 
 function handleAnswerClick(event) {
-  if (answered || !currentQuestion) return;
+  const target = event.target.closest('.answer-btn');
+  if (!target || answered || !currentQuestion) return;
   answered = true;
-  const selectedIndex = Number(event.currentTarget.dataset.index);
+  const selectedIndex = Number(target.dataset.index);
   const isCorrect = selectedIndex === currentQuestion.correctIndex;
   const answerButtons = Array.from(answersContainer.querySelectorAll('button'));
 
@@ -165,6 +191,7 @@ function handleAnswerClick(event) {
 
   answeredThisCycle += 1;
   nextButton.disabled = false;
+  nextButton.focus();
   updateStatus();
 }
 
@@ -192,8 +219,16 @@ fileInput.addEventListener('change', (event) => {
   loadQuestionsFromFile(file);
 });
 
+answersContainer.addEventListener('click', handleAnswerClick);
+
 nextButton.addEventListener('click', () => {
   loadNextQuestion();
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.key === 'Enter' && !nextButton.disabled) {
+    loadNextQuestion();
+  }
 });
 
 // Preload example when hosted locally if desired (no auto-load by default)
