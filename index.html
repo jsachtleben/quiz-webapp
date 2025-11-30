@@ -8,39 +8,105 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <header>
-      <h1>Multiple-Choice Lernspiel</h1>
-      <p>Lade eine Fragen-Datei im JSON-Format hoch, um zu starten.</p>
-    </header>
+  <main class="quiz-main">
+    <div class="quiz-card">
+      <header class="app-header">
+        <div class="logo-slot" aria-label="Qizzomania Logo">
+          <img src="assets/qizzomania-logo.png" alt="Qizzomania Logo" class="logo-image">
+        </div>
 
-    <section class="upload-section">
-      <label for="fileInput" class="file-label">Fragen-Datei auswählen</label>
-      <input type="file" id="fileInput" accept="application/json">
-      <p class="hint">Erwartetes Format: Array mit Objekten { id, question, answers[4], correctIndex }</p>
-      <div id="error" role="alert" aria-live="polite"></div>
-    </section>
+        <div class="app-header-text">
+          <h1>Qizzomania</h1>
+          <p>Lade eine Fragen-Datei im JSON-Format hoch, um zu starten.</p>
+        </div>
+      </header>
 
-    <section id="status" class="status" aria-live="polite" hidden>
-      <div class="status-row">
-        <span id="progress">Fragen im aktuellen Durchlauf: 0 von 0 beantwortet</span>
-        <span id="pool">Aktive Fragen: 0 | Gemeistert: 0</span>
-      </div>
-      <div class="status-row">
-        <span id="correctCount">Richtig beantwortet: 0</span>
-        <span id="incorrectCount">Falsch beantwortet: 0</span>
-      </div>
-    </section>
+      <section class="upload-section">
+        <label for="fileInput" class="file-label">Fragen-Datei auswählen</label>
+        <input type="file" id="fileInput" accept="application/json">
+        <span id="fileName" class="file-name">Keine Datei ausgewählt</span>
+        <p class="hint">Erwartetes Format: Array mit Objekten { id, question, answers[&ge;2], correctIndex }</p>
+        <div id="error" class="error-message" role="alert" aria-live="polite"></div>
+      </section>
 
-    <section id="game" class="game" hidden>
-      <div id="questionText" class="question" aria-live="polite"></div>
-      <div id="answers" class="answers" role="group" aria-label="Antwortmöglichkeiten">
-        <!-- Buttons werden dynamisch erstellt -->
-      </div>
-      <div id="feedback" class="feedback" aria-live="polite"></div>
-      <button id="nextButton" class="next" disabled>Weiter</button>
-    </section>
-  </div>
+      <section id="config" class="config-section" hidden>
+        <h2>Einstellungen für diesen Durchlauf</h2>
+
+        <div class="config-row">
+          <label for="questionCount">
+            Anzahl Fragen in diesem Durchlauf:
+          </label>
+          <div class="config-control">
+            <input
+              type="range"
+              id="questionCount"
+              min="1"
+              value="10"
+            />
+            <div class="config-info">
+              <span id="questionCountValue">10</span>
+              <span>von</span>
+              <span id="totalQuestions">0</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="config-row">
+          <label for="requiredStreak">
+            Anzahl richtiger Antworten, bis eine Frage rausfällt:
+          </label>
+          <div class="config-control">
+            <input
+              type="range"
+              id="requiredStreak"
+              min="1"
+              max="5"
+              value="2"
+            />
+            <div class="config-info">
+              <span id="requiredStreakValue">2</span>
+              <span>richtige Antworten in Folge</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="config-actions">
+          <button id="startButton" class="next">
+            Quiz starten
+          </button>
+          <button id="cancelButton" class="secondary" disabled>
+            Abbrechen
+          </button>
+        </div>
+      </section>
+
+      <section id="status" class="status stats-card" aria-live="polite" hidden>
+        <div class="status-row">
+          <span id="progress">Fragen im aktuellen Durchlauf: 0 von 0 beantwortet</span>
+          <span id="pool">Aktive Fragen: 0 | Gemeistert: 0</span>
+        </div>
+        <div class="status-row">
+          <span id="correctCount">Richtig beantwortet: 0</span>
+          <span id="incorrectCount">Falsch beantwortet: 0</span>
+        </div>
+      </section>
+
+      <section id="game" class="game" hidden>
+        <div class="progress-wrapper">
+          <div class="progress progress-bar-container">
+            <div class="progress-bar" id="progress-bar"></div>
+          </div>
+          <p class="progress-text" id="progress-text"></p>
+        </div>
+        <div id="questionText" class="question question-text" aria-live="polite"></div>
+        <div id="answers" class="answers" role="group" aria-label="Antwortmöglichkeiten">
+          <!-- Buttons werden dynamisch erstellt -->
+        </div>
+        <div id="feedback" class="feedback" aria-live="polite"></div>
+        <button id="nextButton" class="next" disabled>Weiter</button>
+      </section>
+    </div>
+  </main>
 
   <script src="script.js"></script>
 </body>
