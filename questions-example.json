@@ -2,13 +2,13 @@
   {
     "id": 1,
     "question": "Welche Farbe hat der Himmel an einem klaren Tag?",
-    "answers": ["Grün", "Blau", "Rot", "Gelb"],
+    "answers": ["Grün", "Blau", "Rot"],
     "correctIndex": 1
   },
   {
     "id": 2,
     "question": "Wie viele Kontinente gibt es auf der Erde?",
-    "answers": ["Fünf", "Sechs", "Sieben", "Acht"],
+    "answers": ["Fünf", "Sechs", "Sieben", "Acht", "Neun"],
     "correctIndex": 2
   },
   {
@@ -20,13 +20,13 @@
   {
     "id": 4,
     "question": "Welcher Planet ist der Sonne am nächsten?",
-    "answers": ["Mars", "Venus", "Merkur", "Erde"],
+    "answers": ["Mars", "Venus", "Merkur"],
     "correctIndex": 2
   },
   {
     "id": 5,
     "question": "Welche Programmiersprache wird direkt im Browser ausgeführt?",
-    "answers": ["Python", "C#", "JavaScript", "Java"],
+    "answers": ["Python", "C#", "JavaScript", "Java", "Go", "Rust"],
     "correctIndex": 2
   }
 ]

@@ -1,0 +1,1150 @@
+[
+  {
+    "id": 1,
+    "question": "Which of the following is not an example of interspecific competition?",
+    "answers": [
+      "Two male moose competing for a female during mating season",
+      "Cheetahs and lions competing for gazelle and zebra",
+      "Different bird species compete for nest sites in trees",
+      "A shrub and a vine competing for sunlight in the understory of a dense forest"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 2,
+    "question": "Changes in a population of wild horses are shown in the graph below. Which statement best explains the section of the graph labeled X?",
+    "answers": [
+      "Predation is low and resources are high.",
+      "The horses are no longer in competition for resources with other species.",
+      "Interbreeding is occurring between members of different species.",
+      "The horse population has reached the carrying capacity of its environment."
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 3,
+    "question": "biodiversity",
+    "answers": [
+      "increases toward the equator",
+      "remains the same throughout the planet",
+      "decreases toward the equator"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 4,
+    "question": "equilibrium life history strategy characteristics:",
+    "answers": [
+      "early maturation, high fecundity, low juvenile survival",
+      "early maturation, low fecundity, high juvenile survival",
+      "late maturation, low fecundity, high juvenile survival",
+      "late maturation, high fecundity, low juvenile survival"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 5,
+    "question": "Exotic species are especially threatening to what kind of ecosystem?",
+    "answers": [
+      "tropical forest",
+      "desert",
+      "island",
+      "taiga",
+      "tundra"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 6,
+    "question": "What organism is a primary consumer in the food web?",
+    "answers": [
+      "grass",
+      "grasshopper",
+      "Hawk",
+      "snake"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 7,
+    "question": "The natural world that surounds an organism is called the organism's",
+    "answers": [
+      "environment",
+      "nutrients",
+      "energy",
+      "lodging"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 8,
+    "question": "Which of the following statements regarding survivorship curves is accurate?",
+    "answers": [
+      "Species with Type I survivorship curves usually have small quantities of offspring.",
+      "In Type III survivorship curves, many organisms survive youth but die during their elder years.",
+      "In Type II survivorship curves, organisms tend to die mostly during their younger years, but those that survive endure long lifespans.",
+      "Species showing Type I and Type III survivorship curves both provide a great deal of parental care."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 9,
+    "question": "The most common source of energy in an ecosystem is",
+    "answers": [
+      "Electricity",
+      "Sunlight",
+      "DNA",
+      "Black matter",
+      "ATP",
+      "RNA"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 10,
+    "question": "In the formula (dN/dt=rN), what does N stand for?",
+    "answers": [
+      "the change in time",
+      "the carrying capacity of the environment",
+      "the intrinsic rate of natural increase of the population",
+      "the number of individuals in the population",
+      "the age distribution of the population"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 11,
+    "question": "What is currently happening to the amount of carbon dioxide in the atmosphere?",
+    "answers": [
+      "it is fluctuating wildly",
+      "it is decreasing",
+      "it is increasing",
+      "it is holding steady",
+      "we have no way of knowing"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 12,
+    "question": "in 1961 Joseph Connell documented that Balanus (blue barnacles in the figure) normally occupies the intertidal zone, while Chthamalus (brown barnacles in the figure) normally occupies the coast above high tide. When Connell experimentally removed Balanus, Chthamalus colonized the intertidal zone. Which statement is true:",
+    "answers": [
+      "After a removal of Balanus, realised niche of Chthamalus has increased",
+      "After a removal of Balanus, fundamental niche of Chthamalus has increased",
+      "Balanus underwent competitive release",
+      "After a removal of Balanus, realised niche of Chthamalus became larger then its fundamental niche",
+      "all of the above",
+      "none of the above"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 13,
+    "question": "What do species with low fecundity have in common?",
+    "answers": [
+      "The offspring are self-sufficient at a young age.",
+      "They often have many predators, which reduces their offspring's chance of survival.",
+      "They are generally prey animals",
+      "They have high parental care."
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 14,
+    "question": "If we completely remove the decomposers from an ecosystem, its functioning will be adversely affected, because",
+    "answers": [
+      "herbivores will not receive solar energy",
+      "mineral movement will be blocked",
+      "energy flow will be blocked",
+      "the rate of decomposition will be very high"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 15,
+    "question": "As the last ice age ended, glaciers retreated northward and trees colonized the new environment. During this time, the Scotch pine colonized the Norfolk region of Great Britain. The Scotch pine population grew exponentially for 500 years. As this initial growth rate slowed, what increased",
+    "answers": [
+      "predation",
+      "k",
+      "intraspecific competition",
+      "carrying capacity",
+      "logistic growth"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 16,
+    "question": "which two extinction risks may be a direct result of the pet trade?",
+    "answers": [
+      "climate change and exotic species introduction",
+      "overharvesting and exotic species introduction",
+      "habitat loss and climate change",
+      "habitat loss and overharvesting"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 17,
+    "question": "Which of the following ecological levels is correctly paired with its description?",
+    "answers": [
+      "Biosphere - anything that meets all of the characteristics of life",
+      "Population - the regions on Earth that can support life",
+      "Organism all of the species living in a given area",
+      "Community a group of one species living in a given area",
+      "Ecosystem - all of the living and nonliving factors in an environment"
+    ],
+    "correctIndex": 4
+  },
+  {
+    "id": 18,
+    "question": "Which of the following are greenhouse gas: ",
+    "answers": [
+      "1: CH4",
+      "2: CFC",
+      "3: CO2",
+      "4: N2",
+      "5: NH4",
+      "1,2,3,4 and 5",
+      "1,2 and 3",
+      "1,3 and 4",
+      "2, 3, 4 and 5",
+      "1,3,4 and 6",
+      "1 and 3"
+    ],
+    "correctIndex": 6
+  },
+  {
+    "id": 19,
+    "question": "In a study of two flour beetle species, Tribolium castaneum and Tribolium confusum, it was found the beetles prey on the eggs of both their own species and other species. When studied in the same environment, T. castaneum was found to be a stronger competitor for resources and was able to exclude T. confusum 84% of the time. Adelina is an intracellular parasite that can infect both species of beetle. When Adelina was present in a community and had infected both species of beetle, the competitive interactions were reversed. In an infected community, T. confusum was able to outcompete T. castaneum. This example illustrates that when a variety of interactions happen in the same community, surprising results sometimes occur. What interaction is not present in the situation described above?",
+    "answers": [
+      "Competition",
+      "Parasitism",
+      "Commensalism",
+      "Predation"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 20,
+    "question": "Since the Middle Ages the most recorded extinctions have occurred among",
+    "answers": [
+      "mammals",
+      "humans",
+      "angiosperms",
+      "fish",
+      "amphibians"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 21,
+    "question": "opportunistic life history strategy characteristics:",
+    "answers": [
+      "late maturation, high fecundity, low juvenile survival",
+      "early maturation, low fecundity, high juvenile survival",
+      "early maturation, low fecundity, low juvenile survival",
+      "early maturation, high fecundity, low juvenile survival"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 22,
+    "question": "in a forest we find 25% of species A, 25% of species B, 25% of species C, 25% of species D. The Shannon Wiener diversity index for this community is:",
+    "answers": [
+      "04",
+      "0,71",
+      "25",
+      "1,39",
+      "0,25"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 23,
+    "question": "Which of the following is a difference between food chains and food webs?",
+    "answers": [
+      "Food chains are linear, while food webs are complex.",
+      "Food webs contain both plants and animals, but food chains contain only plants.",
+      "Food chains show energy flow in an ecosystem, and food webs do not.",
+      "Food webs separate organisms by trophic level, but food chains do not."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 24,
+    "question": "A clownfish attracts prey to an anemone while the anemone provides a safe habitat for the clownfish. Describe the type of ecological interaction.",
+    "answers": [
+      "Competition",
+      "Commensalism",
+      "Consumerism",
+      "Mutualism"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 25,
+    "question": "Plants capture approximately ___ of the sun's energy while other trophic levels capture about ___ of the energy available to them in their food",
+    "answers": [
+      "1% 10%",
+      "1% 42%",
+      "42% 1%",
+      "10% 1%"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 26,
+    "question": "In 1976, the dominant finch on Daphne Major in the Galapagos Islands was the medium ground finch, with a population of 1,200. In 1977, a drought struck the island negatively affecting most of the vegetation. As a result, the population of medium ground finch dropped to 180 due to starvation. In 1983, however, a large amount of rainfall fell on the island creating optimal conditions for vegetation. The medium ground finch population increased to 1,100. After the rainfall of 1983, what type of population growth did the medium ground finch experience?",
+    "answers": [
+      "Abiotic",
+      "Logistic",
+      "Exponential",
+      "Quantitative"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 27,
+    "question": "An example of a biotic factor in a forest ecosystem is a",
+    "answers": [
+      "rock",
+      "rain",
+      "bacteria",
+      "river"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 28,
+    "question": "the current climate change is mainly due to",
+    "answers": [
+      "1 the hole in the ozone layer",
+      "2 volcanic activity",
+      "3 burning of fossil fuels",
+      "all of them",
+      "1 and 2",
+      "1 and 3",
+      "2 and 3"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 29,
+    "question": "Nesting birds in a colony tend to have a:",
+    "answers": [
+      "uniform dispersion",
+      "random dispersion",
+      "long distance dispersion",
+      "clumped dispersion"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 30,
+    "question": "An island is approximately circular with a radius of 10km. There is no emigration or immigration. In a mark recapture study of a snake population, 210 individuals were captured, marked and released. In a second capture, 375 snakes were captures, 12 of these had marks. What is the snake density",
+    "answers": [
+      "210/km2",
+      "12/km2",
+      "21/km2",
+      "42"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 31,
+    "question": "The biome that dominates much of the subarctic latitude in North America and Eurasia is the:",
+    "answers": [
+      "decideous forest",
+      "desert",
+      "tundra",
+      "coniferous forest"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 32,
+    "question": "The study of how living things interact is called",
+    "answers": [
+      "abiotic factors",
+      "ecology",
+      "the energy pyramid",
+      "biotic factors",
+      "ecosystems"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 33,
+    "question": "When does competitive exclusion occur?",
+    "answers": [
+      "When prey displace predators due to a competitive advantage",
+      "When the same species competes for different resources",
+      "When different species compete for the same resources",
+      "When predators displace prey from their habitat"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 34,
+    "question": "Which factors are density dependent",
+    "answers": [
+      "toxic waste",
+      "cannibalism",
+      "diseases",
+      "all of the above",
+      "predation",
+      "non of the above, these are density independent factors"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 35,
+    "question": "Which of the following organism is likely to have more concentration of D.D.T. in its body?",
+    "answers": [
+      "herbivores",
+      "secondary consumers",
+      "top carnivores",
+      "primary producer"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 36,
+    "question": "cows depend on primary producer for the production of (1: O2, 2: N2, 3: C6H12O6)",
+    "answers": [
+      "1 and 2",
+      "1 and 3",
+      "2 and 3",
+      "all of them",
+      "none of them"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 37,
+    "question": "Which of the following best explains why predators and their prey have similar population cycles?",
+    "answers": [
+      "The predators and prey are in direct competition with one another.",
+      "An increase or decrease in one population directly affects the other.",
+      "Populations that live in the same ecosystem often have similar life cycles.",
+      "Both populations develop similar adaptations that help them survive during severe environmental changes."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 38,
+    "question": "An unusually cold winter causes the squirrel population to decrease. This is an example of temperature as a",
+    "answers": [
+      "limiting factor",
+      "carrying capacity",
+      "pattern in space",
+      "climax community"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 39,
+    "question": "More than 70% of worlds freshwater is contained in",
+    "answers": [
+      "glacier",
+      "greenland",
+      "antartica",
+      "polar ice"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 40,
+    "question": "The major reservoir for phosphorus is",
+    "answers": [
+      "clouds",
+      "soil and rocks",
+      "aquifers",
+      "the sun",
+      "the atmosphere"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 41,
+    "question": "The number of species in a community is referred to as the",
+    "answers": [
+      "spatial heterogeneity",
+      "keystone species",
+      "species diversity",
+      "species richness",
+      "ecosystem productivity"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 42,
+    "question": "What is the number of currently described species on the planet?",
+    "answers": [
+      "10 millions",
+      "10 000",
+      "100 millions",
+      "100 000",
+      "1 million"
+    ],
+    "correctIndex": 4
+  },
+  {
+    "id": 43,
+    "question": "Name those organisms who can breed only once in their lifetime",
+    "answers": [
+      "Dispersed",
+      "Clumped",
+      "Semelparous",
+      "Iteroparous"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 44,
+    "question": "Which factors tend to return a population to a mean or equilibrium level?",
+    "answers": [
+      "density dependent factors",
+      "k factors",
+      "inversely density dependent factors",
+      "density independent factors"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 45,
+    "question": "Which population is limited by a density-dependent factor?",
+    "answers": [
+      "A population of rams is decimated by an earthquake.",
+      "A local wolf population experiences a lethal epidemic of parvovirus",
+      "A deer population is reduced as a result of a forest fire",
+      "Many eggs in a population of frogs are destroyed due to a drought"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 46,
+    "question": "What are the two most important climatic factors affecting the distribution of world terrestrial biomes?",
+    "answers": [
+      "temperature and wind",
+      "temperature and water availability",
+      "wind and rain",
+      "wind and clouds"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 47,
+    "question": "Graph: Species A (Red, High Peak) vs Species B (Grey, Low Peak). Which statement is true?",
+    "answers": [
+      "Species A has a mutualistic relationship with Species B.",
+      "Species A is in competition with Species B.",
+      "Species A is a consumer and Species B is its producer.",
+      "Species A is the prey of Species B."
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 48,
+    "question": "an urn shaped age pyramid is characteristic of populations that are",
+    "answers": [
+      "healthy",
+      "growing",
+      "in decline",
+      "with many young"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 49,
+    "question": "Energy flow in ecosystems is",
+    "answers": [
+      "all of the above",
+      "none of the above",
+      "bidirectional",
+      "multidirectional",
+      "unidirectional"
+    ],
+    "correctIndex": 4
+  },
+  {
+    "id": 50,
+    "question": "Which two biomes are the most similar with regard to rainfall?",
+    "answers": [
+      "tundra and desert",
+      "temperate forest and prairie",
+      "rain forest and savanna",
+      "tundra and taiga"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 51,
+    "question": "Which of the following would represent an ecosystem?",
+    "answers": [
+      "a lake",
+      "a forest",
+      "a fishtank",
+      "all of the above"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 52,
+    "question": "El Nino is a result of global warming",
+    "answers": [
+      "no",
+      "yes"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 53,
+    "question": "Two abiotic factors that affect an ecosystem are",
+    "answers": [
+      "plants and animals",
+      "sun and rain",
+      "temperature and animals",
+      "water and bacteria"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 54,
+    "question": "An important species of the Chesapeake Bay community is the Virginia oyster, which helps form large reefs that provide small fish and marine invertebrates with shelter. Which of the following best describes the role of the Virginia oyster in the Chesapeake Bay ecosystem?",
+    "answers": [
+      "An invasive species",
+      "A pioneer species",
+      "A dominant species",
+      "A foundation species"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 55,
+    "question": "What is NOT an assumption of the logistic growth model?",
+    "answers": [
+      "instantaneous responses to crowding",
+      "population growth is proportional to the remaining resources",
+      "resources are renewed continuously",
+      "immigration and emigration occur"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 56,
+    "question": "When a rabbit population in a meadow cannot grow any larger, it has reached the",
+    "answers": [
+      "minimum size",
+      "climax community",
+      "limiting factor",
+      "carrying capacity"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 57,
+    "question": "Niche overlap indicates",
+    "answers": [
+      "two different parasites on the same host",
+      "active cooperation between two species",
+      "mutualism between two species",
+      "sharing of one or more resources between the two species"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 58,
+    "question": "In 1976, the dominant finch on Daphne Major in the Galapagos Islands was the medium ground finch, with a population of 1,200. In 1977, a drought struck the island negatively affecting most of the vegetation. As a result, the population of medium ground finch dropped to 180 due to starvation. In 1983, however, a large amount of rainfall fell on the island creating optimal conditions for vegetation. The medium ground finch population increased to 1,100. What type of factor affected medium ground finch populations in 1977 and 1983?",
+    "answers": [
+      "Density dependent",
+      "logistic",
+      "density independent",
+      "biotic",
+      "none of the above"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 59,
+    "question": "categorize the interaction: Mistletoe is a plant that attaches to trees or shrubs. Special mistletoe structures called haustorium penetrate the branches of the trees and shrubs. The mistletoe is then able to absorb water and nutrients from the plant, leading to illness and sometimes death of the host plant",
+    "answers": [
+      "Competition",
+      "Parasitism",
+      "Commensalism",
+      "Symbiosis",
+      "Mutualism"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 60,
+    "question": "In 1998, a devastating fire destroyed a great deal of Yellowstone National Park. Although many of the organisms were killed or displaced, existing seeds began to immediately recolonize the park. This is an example of which of the following?",
+    "answers": [
+      "natural selection",
+      "climax community",
+      "secondary succession",
+      "primary succession"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 61,
+    "question": "a metapopulation is a",
+    "answers": [
+      "demographic analyses",
+      "community of species living together",
+      "population of populations",
+      "nursery"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 62,
+    "question": "Marine fish tend to have which type of survivorship curve?",
+    "answers": [
+      "I",
+      "III",
+      "IV",
+      "II"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 63,
+    "question": "An ecosystem must have continuous external source of",
+    "answers": [
+      "energy",
+      "nutrients",
+      "all of the above",
+      "minerals",
+      "food"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 64,
+    "question": "An adaptive radiation is",
+    "answers": [
+      "burst of speciation",
+      "evidence of an asteroid impact",
+      "a hypothesized cause of a mass extinction",
+      "a healthy level of radiation"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 65,
+    "question": "Approximately how many kJ of tertiary consumer could 10.000 kJ of producer support?",
+    "answers": [
+      "10",
+      "10 000",
+      "1",
+      "100",
+      "1000"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 66,
+    "question": "a pond is shape as an hemisphere with a 2km diameter. the is no emigration nor immigration. In a mark recapture study of a fish population, 30 inds were captured, marked and released. In a second capture, 50 fish were caught, 5 of which had markings. What is the fish density in the pond",
+    "answers": [
+      "300",
+      "3/km3",
+      "300/km3",
+      "1/km2",
+      "150/km3"
+    ],
+    "correctIndex": 4
+  },
+  {
+    "id": 67,
+    "question": "If there was no CO2 in the earth's atmosphere, the temperature of earth's surface would be",
+    "answers": [
+      "same as present",
+      "less than the present",
+      "dependent on the amount of oxygen in the atmosphere",
+      "higher than the present"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 68,
+    "question": "The total amount of energy that is converted to organic compounds in a given area per unit of time is called the",
+    "answers": [
+      "biomass",
+      "net primary productivity",
+      "Photosynthesis",
+      "transpiration",
+      "gross primary productivity"
+    ],
+    "correctIndex": 4
+  },
+  {
+    "id": 69,
+    "question": "According to the competitive exclusion principle, potential competitors can only coexist through",
+    "answers": [
+      "scramble competition",
+      "mortal competition",
+      "interference competition",
+      "they can never coexist",
+      "niche differentiation",
+      "contest competition"
+    ],
+    "correctIndex": 4
+  },
+  {
+    "id": 70,
+    "question": "it is unlikely that humans will exhibit symptoms of overcrowding seen in other species.",
+    "answers": [
+      "right",
+      "false"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 71,
+    "question": "Which of the following chemicals enters living organisms primarily from the atmosphere rather than from rocks or soil?",
+    "answers": [
+      "Na",
+      "C",
+      "P",
+      "S",
+      "Ca"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 72,
+    "question": "Pollination is an example of:",
+    "answers": [
+      "an ecosystem service",
+      "a possible source of new drugs",
+      "crop pest control",
+      "chemical diversity"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 73,
+    "question": "The process of converting nitrate to nitrogen gas and nitrous oxide is called",
+    "answers": [
+      "nitrogen fixation",
+      "eutrophication",
+      "denitrification",
+      "transpiration",
+      "ammonification"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 74,
+    "question": "Which of the following is a secondary consumer?",
+    "answers": [
+      "carnivore",
+      "herbivore",
+      "plant",
+      "all of the above",
+      "none of the above"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 75,
+    "question": "categorize the interaction: Orchids are epiphytes that grow on the bark of other plants. They do not harm the plant but obtain their nutrients and water from the surrounding air and debris",
+    "answers": [
+      "mutualism",
+      "symbiosis",
+      "competition",
+      "commensalism",
+      "parasitism"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 76,
+    "question": "When does the growth rate of a natural population equal zero?",
+    "answers": [
+      "when N nears the carrying capacity of the habitat",
+      "when N/K is exactly one",
+      "when N/K equals zero",
+      "when mortality is greater than natality",
+      "all of the above",
+      "none of the above"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 77,
+    "question": "The earth is an open system with respect to",
+    "answers": [
+      "organisms",
+      "chemicals",
+      "energy",
+      "aliens",
+      "all of the above",
+      "none of the above"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 78,
+    "question": "The types and numbers of species in a given area is most greatly determined by the area's",
+    "answers": [
+      "human activities",
+      "precipitation",
+      "climate",
+      "biodiversity",
+      "biotic factors"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 79,
+    "question": "which of the following species are restricted to a given area",
+    "answers": [
+      "sibling species",
+      "endemic species",
+      "sympatric species",
+      "allopatric species"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 80,
+    "question": "No restoration is purely pristine because:",
+    "answers": [
+      "no one knows exactly what species to restore it with",
+      "no sites are available",
+      "politicians will not support it",
+      "the public will not support it"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 81,
+    "question": "Which of the following contains a lot of carbon?",
+    "answers": [
+      "fossil fuels",
+      "oceans",
+      "peat",
+      "all of the above",
+      "none of the above"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 82,
+    "question": "Deforestation will decrease",
+    "answers": [
+      "soil fertility",
+      "land slides",
+      "soil erosion",
+      "rainfall"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 83,
+    "question": "which factor is not density dependent",
+    "answers": [
+      "toxic waste",
+      "temperature",
+      "diseases",
+      "predation",
+      "cannibalism"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 84,
+    "question": "Which of the following communities is the most productive",
+    "answers": [
+      "deciduous forest",
+      "tropical forest",
+      "coniferous forest",
+      "boreal forest"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 85,
+    "question": "Which of the statements regarding the nitrogen cycle is true?",
+    "answers": [
+      "Denitrification occurs when a nitrogen containing compound is produced from nitrogen in the soil.",
+      "Nitrogen fixation is the process atmospheric nitrogen is converted into biologically usable forms.",
+      "Atmospheric nitrogen is absorbed through the leaves of plants.",
+      "Animals obtain nitrogen through the process of cellular respiration."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 86,
+    "question": "the following statements concerning characteristics of predator-prey relationships are all correct EXCEPT:",
+    "answers": [
+      "The production of large numbers of offspring within very short periods of time ensures the survival of some prey populations",
+      "A rise in the population of predators is followed by a decrease in the population of prey",
+      "Camouflage is an adaptation that protects prey",
+      "all are correct",
+      "A rise in the population of prey is often followed by a rise in the population of predators"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 87,
+    "question": "Where does intraspecific competition occur?",
+    "answers": [
+      "Between any members of the same community",
+      "Between members of the same species",
+      "Between members of two or more different species",
+      "Between members of the same food web"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 88,
+    "question": "A population lily double every day. It covers a whole lake in 20 days. When was 1/2 of the lake covered by lilies?",
+    "answers": [
+      "19 days",
+      "10 days",
+      "15 days",
+      "5 days",
+      "18 days",
+      "2 days"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 89,
+    "question": "Which of the following best describes the importance of biogeochemical cycles?",
+    "answers": [
+      "They chart how biotic changes destroy unstable ecosystems.",
+      "They explain how energy moves through trophic levels of an ecosystem.",
+      "They show how certain elements and compounds move through the environment and are continually used and recycled.",
+      "They describe how the adaptations of organisms change based on environmental pressures."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 90,
+    "question": "If an initial population of 2000 individuals there are 104 birth and 24 death in a year, what is the annual growth rate of the population",
+    "answers": [
+      "40",
+      "4%",
+      "8%",
+      "80"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 91,
+    "question": "Formation of ozone hole is maximum over",
+    "answers": [
+      "Antartica",
+      "india",
+      "europe",
+      "africa"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 92,
+    "question": "Which of the following is true regarding the value of biodiversity?",
+    "answers": [
+      "Biodiversity has neither economic nor ecological value.",
+      "Biodiversity has economic value, but not ecological value.",
+      "Biodiversity has ecological value, but not economic value.",
+      "Biodiversity has both economic and ecological value."
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 93,
+    "question": "A village had a population of 1100. They had a birthrate of 13/100, a death rate of 9/100 and an emigration rate of 1/100. What is the population a year later?",
+    "answers": [
+      "1133",
+      "1103",
+      "1123",
+      "1105"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 94,
+    "question": "The ongoing climate change is mainly the results of (1: ozone/UV, 2: Pollution/CFC, 3: Fossil fuels, 4: Greenhouse CO2, 5: Milankovitch)",
+    "answers": [
+      "1,2,3,4 and 5",
+      "1 and 2",
+      "2 and 3",
+      "3 and 4"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 95,
+    "question": "The mortality rate of organisms following a type III survivorship curve is",
+    "answers": [
+      "unrelated to age",
+      "lower after the organisms become established",
+      "higher in post-reproductive years",
+      "fairly constant throughout life"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 96,
+    "question": "Net primary productivity is the gross primary productivity less",
+    "answers": [
+      "loss due to mortality",
+      "that which is consumed by the producer in metabolism",
+      "none of the above",
+      "that which is consumed by herbivores",
+      "secondary productivity"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 97,
+    "question": "Calanus are small pelagic crustacean that feed on the abundant phytoplankton. Krill, small crustaceans, also feed on phytoplankton. What is the relationship between calanus and krill?",
+    "answers": [
+      "commensalism",
+      "competition",
+      "symbiosis",
+      "parasitism",
+      "mutualism"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 98,
+    "question": "semelparity is part of human life history strategy ?",
+    "answers": [
+      "no",
+      "yes"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 99,
+    "question": "During exponential growth",
+    "answers": [
+      "all of the above",
+      "the curve on the graph levels of",
+      "none of the above",
+      "the rate of increase fluctuates",
+      "the number of individuals in a population increases rapidly"
+    ],
+    "correctIndex": 4
+  },
+  {
+    "id": 100,
+    "question": "Which of the following is NOT a result from predator-prey interactions?",
+    "answers": [
+      "Cleaner wrasse, a coral reef fish, eat parasites off of larger fish",
+      "Planthopper, an insect, has the same shape and coloring of green leaves",
+      "Lynx have large, padded paws that enable them to walk quietly on snow",
+      "Scorpion venom is fast-acting and can paralyze or even kill other animals",
+      "none of the above"
+    ],
+    "correctIndex": 0
+  }
+]

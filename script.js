@@ -37,33 +37,49 @@ function resetGameState() {
 
 function validateQuestions(data) {
   if (!Array.isArray(data)) {
-    throw new Error('Die Datei muss ein Array von Fragen enthalten.');
-  }
-  if (data.length === 0) {
-    throw new Error('Die Fragenliste ist leer.');
+    throw new Error('JSON must be an array.');
   }
 
-  const ids = new Set();
   data.forEach((item, index) => {
     if (typeof item !== 'object' || item === null) {
-      throw new Error(`Eintrag ${index + 1} ist kein Objekt.`);
+      throw new Error(`Invalid question at index ${index}: expected object.`);
     }
+
+    if (!Object.hasOwn(item, 'id')) {
+      throw new Error("Invalid question: missing required field 'id'.");
+    }
+    if (!Object.hasOwn(item, 'question')) {
+      throw new Error("Invalid question: missing required field 'question'.");
+    }
+    if (!Object.hasOwn(item, 'answers')) {
+      throw new Error("Invalid question: missing required field 'answers'.");
+    }
+    if (!Object.hasOwn(item, 'correctIndex')) {
+      throw new Error("Invalid question: missing required field 'correctIndex'.");
+    }
+
     const { id, question, answers, correctIndex } = item;
-    if (typeof id !== 'number' || !Number.isInteger(id)) {
-      throw new Error(`Frage ${index + 1}: "id" muss eine Ganzzahl sein.`);
+
+    if (typeof id !== 'number' || Number.isNaN(id)) {
+      throw new Error('Invalid question: id must be a number.');
     }
-    if (ids.has(id)) {
-      throw new Error(`Doppelte ID "${id}" gefunden.`);
+    if (typeof question !== 'string') {
+      throw new Error('Invalid question: question must be a string.');
     }
-    ids.add(id);
-    if (typeof question !== 'string' || question.trim() === '') {
-      throw new Error(`Frage ${id}: "question" muss ein Text sein.`);
+    if (!Array.isArray(answers)) {
+      throw new Error('Invalid question: answers must be an array.');
     }
-    if (!Array.isArray(answers) || answers.length !== 4 || !answers.every(a => typeof a === 'string')) {
-      throw new Error(`Frage ${id}: "answers" muss ein Array mit genau 4 Texten sein.`);
+    if (answers.length < 2) {
+      throw new Error('Invalid question: answers array must contain at least 2 entries.');
     }
-    if (!Number.isInteger(correctIndex) || correctIndex < 0 || correctIndex > 3) {
-      throw new Error(`Frage ${id}: "correctIndex" muss eine Zahl zwischen 0 und 3 sein.`);
+    if (!answers.every(a => typeof a === 'string')) {
+      throw new Error('Invalid question: answers must contain only strings.');
+    }
+    if (!Number.isInteger(correctIndex)) {
+      throw new Error('Invalid question: correctIndex must be an integer.');
+    }
+    if (correctIndex < 0 || correctIndex >= answers.length) {
+      throw new Error('Invalid question: correctIndex is out of bounds.');
     }
   });
 }
@@ -97,9 +113,7 @@ function loadQuestionsFromFile(file) {
       startCycle();
     } catch (err) {
       console.error('Fehler beim Laden:', err);
-      const safeMessage = err.message && err.message.startsWith('Frage')
-        ? err.message
-        : 'Fehler beim Laden der Datei. Bitte überprüfe das Format.';
+      const safeMessage = err && err.message ? err.message : 'Fehler beim Laden der Datei. Bitte überprüfe das Format.';
       errorBox.textContent = safeMessage;
       statusSection.hidden = true;
       gameSection.hidden = true;
