@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiple-Choice Lernspiel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Multiple-Choice Lernspiel</h1>
+      <p>Lade eine Fragen-Datei im JSON-Format hoch, um zu starten.</p>
+    </header>
+
+    <section class="upload-section">
+      <label for="fileInput" class="file-label">Fragen-Datei auswählen</label>
+      <input type="file" id="fileInput" accept="application/json">
+      <p class="hint">Erwartetes Format: Array mit Objekten { id, question, answers[4], correctIndex }</p>
+      <div id="error" role="alert" aria-live="polite"></div>
+    </section>
+
+    <section id="status" class="status" aria-live="polite" hidden>
+      <div class="status-row">
+        <span id="progress">Fragen im aktuellen Durchlauf: 0 von 0 beantwortet</span>
+        <span id="pool">Aktive Fragen: 0 | Gemeistert: 0</span>
+      </div>
+      <div class="status-row">
+        <span id="correctCount">Richtig beantwortet: 0</span>
+        <span id="incorrectCount">Falsch beantwortet: 0</span>
+      </div>
+    </section>
+
+    <section id="game" class="game" hidden>
+      <div id="questionText" class="question" aria-live="polite"></div>
+      <div id="answers" class="answers" role="group" aria-label="Antwortmöglichkeiten">
+        <!-- Buttons werden dynamisch erstellt -->
+      </div>
+      <div id="feedback" class="feedback" aria-live="polite"></div>
+      <button id="nextButton" class="next" disabled>Weiter</button>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

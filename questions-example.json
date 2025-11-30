@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "question": "Welche Farbe hat der Himmel an einem klaren Tag?",
+    "answers": ["Grün", "Blau", "Rot", "Gelb"],
+    "correctIndex": 1
+  },
+  {
+    "id": 2,
+    "question": "Wie viele Kontinente gibt es auf der Erde?",
+    "answers": ["Fünf", "Sechs", "Sieben", "Acht"],
+    "correctIndex": 2
+  },
+  {
+    "id": 3,
+    "question": "Welche Einheit misst elektrische Stromstärke?",
+    "answers": ["Volt", "Ampere", "Ohm", "Watt"],
+    "correctIndex": 1
+  },
+  {
+    "id": 4,
+    "question": "Welcher Planet ist der Sonne am nächsten?",
+    "answers": ["Mars", "Venus", "Merkur", "Erde"],
+    "correctIndex": 2
+  },
+  {
+    "id": 5,
+    "question": "Welche Programmiersprache wird direkt im Browser ausgeführt?",
+    "answers": ["Python", "C#", "JavaScript", "Java"],
+    "correctIndex": 2
+  }
+]
